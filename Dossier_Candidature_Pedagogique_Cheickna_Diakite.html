@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dossier Officiel de Candidature Pédagogique — Cheickna Omar Diakité</title>
+  <title>Dossier de candidature pédagogique — Cheickna Omar Diakité</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -161,21 +161,6 @@
       text-decoration: none;
     }
 
-    /* Statut badge CAMES */
-    .badge-cames {
-      display: inline-block;
-      background: #FEF3C7;
-      border: 1px solid #F59E0B;
-      color: #92400E;
-      font-size: 10.5px;
-      font-weight: 800;
-      padding: 2px 8px;
-      border-radius: 4px;
-      margin-top: 4px;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
     /* Bannière des 4 Chiffres-Clés */
     .stat-banner {
       display: grid;
@@ -294,7 +279,7 @@
       font-size: 11px;
     }
 
-    /* Tableau Comparatif Choc */
+    /* Tableau de progression pédagogique */
     .table-clash {
       width: 100%;
       border-collapse: collapse;
@@ -311,7 +296,7 @@
     }
 
     .table-clash th.col-crit { background: var(--primary-light); color: #FFF; width: 20%; }
-    .table-clash th.col-bad { background: #991B1B; color: #FFF; width: 40%; }
+    .table-clash th.col-bad { background: #334155; color: #FFF; width: 40%; }
     .table-clash th.col-good { background: #065F46; color: #FFF; width: 40%; }
 
     .table-clash td {
@@ -322,7 +307,7 @@
     }
 
     .table-clash tr:nth-child(even) td { background: #F8FAFC; }
-    .table-clash td.td-bad { color: #991B1B; font-weight: 500; }
+    .table-clash td.td-bad { color: var(--text-muted); font-weight: 500; }
     .table-clash td.td-good { color: #065F46; font-weight: 600; background: #ECFDF5 !important; }
 
     /* Grille de cartes */
@@ -394,30 +379,6 @@
       line-height: 1.4;
     }
 
-    /* Badges Repositories */
-    .repo-pill {
-      display: inline-block;
-      background: #F1F5F9;
-      border: 1px solid #CBD5E1;
-      border-radius: 4px;
-      padding: 2px 6px;
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 10px;
-      font-weight: 600;
-      color: var(--primary);
-      margin: 1.5px;
-    }
-
-    .repo-group-title {
-      font-size: 11.5px;
-      font-weight: 800;
-      color: var(--accent);
-      margin: 8px 0 4px 0;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
     /* Tableau standard */
     .table-clean {
       width: 100%;
@@ -443,29 +404,6 @@
       vertical-align: middle;
     }
     .table-clean tr:nth-child(even) td { background: #F8FAFC; }
-
-    /* Code pill pour tableau UE */
-    .code-pill {
-      font-family: 'JetBrains Mono', monospace;
-      font-weight: 700;
-      color: var(--primary);
-      background: #E2E8F0;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 10.5px;
-    }
-
-    .vol-badge {
-      font-weight: 800;
-      color: #065F46;
-      background: #D1FAE5;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 10.5px;
-      text-align: center;
-      display: inline-block;
-      min-width: 34px;
-    }
 
     /* Bannière Offre Cours Gratuit 45 min */
     .banner-demo {
@@ -530,7 +468,7 @@
 
   <!-- Barre d'outils navigateur -->
   <header class="no-print-bar">
-    <h1><i class="fas fa-graduation-cap"></i> Dossier Officiel de Candidature &bull; Ing. Cheickna Omar DIAKITÉ</h1>
+    <h1><i class="fas fa-graduation-cap"></i> Dossier de candidature pédagogique &bull; Cheickna Omar DIAKITÉ</h1>
     <div style="display:flex; gap:10px;">
       <button class="btn-action" onclick="window.print()">
         <i class="fas fa-print"></i> Imprimer / Exporter en PDF (5 Pages)
@@ -543,14 +481,13 @@
 
   <div class="doc-container">
 
-    <!-- ═══════════════════ PAGE 1 : LETTRE OFFICIELLE & PREUVES DE TERRAIN ═══════════════════ -->
+    <!-- ═══════════════════ PAGE 1 : LETTRE ET PRÉSENTATION DU PROGRAMME ═══════════════════ -->
     <div class="page">
       <div class="page-header">
         <div>
           <div class="motto">République du Mali &bull; Un Peuple &bull; Un But &bull; Une Foi</div>
           <div class="header-name">CHEICKNA OMAR DIAKITÉ</div>
-          <div class="header-sub">Ingénieur Réseau &amp; Télécoms &bull; Développeur Full-Stack Architecte</div>
-          <div class="badge-cames"><i class="fas fa-check-double"></i> Statut CAMES / DGESRS : Titulaire Licence &bull; Expert Associé Master</div>
+          <div class="header-sub">Réseaux &amp; Télécommunications &bull; Développement Full Stack &bull; Formation IT</div>
         </div>
         <div class="header-meta">
           <div><i class="fas fa-phone-alt"></i> +223 91 69 05 92</div>
@@ -560,258 +497,229 @@
         </div>
       </div>
 
-      <!-- 4 CHIFFRES-CLÉS CHOC -->
+      <!-- Axes du programme -->
       <div class="stat-banner">
         <div class="stat-box">
-          <div class="stat-val">38+</div>
-          <div class="stat-lbl">Repositories</div>
-          <div class="stat-desc">En production réelle</div>
+          <div class="stat-val">01</div>
+          <div class="stat-lbl">Comprendre</div>
+          <div class="stat-desc">Analyser le besoin</div>
         </div>
         <div class="stat-box">
-          <div class="stat-val">100%</div>
-          <div class="stat-lbl">Code en Direct</div>
-          <div class="stat-desc">Zéro théorie passive</div>
+          <div class="stat-val">02</div>
+          <div class="stat-lbl">Pratiquer</div>
+          <div class="stat-desc">Consolider les acquis</div>
         </div>
         <div class="stat-box">
-          <div class="stat-val">3 MIN</div>
-          <div class="stat-lbl">Live Defense</div>
-          <div class="stat-desc">Anti-fraude IA stricte</div>
+          <div class="stat-val">03</div>
+          <div class="stat-lbl">Construire</div>
+          <div class="stat-desc">Réaliser un projet</div>
         </div>
         <div class="stat-box">
-          <div class="stat-val">72H</div>
-          <div class="stat-lbl">Délai Notes</div>
-          <div class="stat-desc">Engagement contractuel</div>
+          <div class="stat-val">04</div>
+          <div class="stat-lbl">Évoluer</div>
+          <div class="stat-desc">Présenter et progresser</div>
         </div>
       </div>
 
       <div class="dest-card">
         <div class="to">À l'attention de Monsieur/Madame le Directeur Général, de Monsieur/Madame le Directeur Académique</div>
-        <div class="obj"><strong>OBJET :</strong> Candidature aux fonctions d'Enseignement Supérieur (Génie Logiciel, Web/Mobile, Systèmes &amp; Réseaux, IA Appliquée).</div>
+        <div class="obj"><strong>OBJET :</strong> Candidature à des interventions pédagogiques en développement logiciel, web et mobile.</div>
       </div>
 
       <div class="letter-text">
         <p>Monsieur le Directeur Général, Madame, Monsieur le Directeur Académique,</p>
         <p>
-          Former la jeunesse africaine aux technologies numériques d'élite n'est pas pour moi un calcul de carrière : c'est un serment forgé dans l'épreuve.
+          Le développement des compétences numériques ne repose pas uniquement sur la transmission de savoirs théoriques. Dans le contexte actuel, les étudiants doivent être capables de comprendre un besoin, de modéliser une solution, de développer une application et d'évaluer le résultat dans un cadre professionnel.
         </p>
 
         <div class="callout-story">
-          &laquo; Dans ma vie, je n'ai jamais bénéficié de passe-droit, d'héritage de réseau ou de faveur. Face à chaque défi technique complexe, j'ai conquis chaque compétence à la force d'un travail acharné. J'ai très souvent été seul devant l'écran, dans la nuit bamakoise, à dompter les architectures logicielles, auditer les bases relationnelles et concevoir des interfaces au pixel près. Cette solitude studieuse a forgé en moi une discipline d'acier, le culte du livrable et le refus absolu de la complaisance. &raquo;
+          &laquo; La formation académique apporte les fondements nécessaires, mais l'acquisition d'une réelle compétence passe par l'analyse, la pratique, la réalisation de projets et la capacité à mobiliser les connaissances dans un contexte concret. C'est sur cette logique que s'inscrit le projet de spécialisation proposé. &raquo;
         </div>
 
         <p>
-          Cette trempe m'a conduit chez <strong>THL Technologies</strong>, où j'opère depuis plus de deux ans comme Développeur Full-Stack et Architecte sur <strong>38 systèmes critiques en production réelle</strong> : le Core Banking (CID) sous session chiffrée JWT/RSA 2048, la marketplace Mywa (Spring Boot microservices &amp; Flutter), le système VTC Hewo (16 écrans, géolocalisation live), l'ERP du Grand Hôtel Maeva Palace et la plateforme du Cabinet CHT Avocats.
+          Mon parcours professionnel et mes expériences dans le développement logiciel m'ont permis de constater que la meilleure manière d'apprendre les technologies est d'associer théorie et mise en œuvre. Cette observation est au cœur du projet de spécialisation que je propose : un parcours orienté vers le développement Full Stack, articulé autour de la conception, de la programmation, de la gestion des données, des API, de la qualité logicielle et de la présentation des résultats.
         </p>
         <p>
-          Aujourd'hui, l'enseignement supérieur privé en Afrique fait face à une crise silencieuse : des étudiants qui accumulent des notes théoriques sur diapositives, copient aveuglément du code généré par l'IA sans le comprendre, et se font éliminer dès leur premier entretien d'embauche. <strong>Je postule pour rompre définitivement avec cette fatalité :</strong>
+          Ce programme ne vise pas à remplacer le cursus universitaire ; il vise à le compléter par une approche plus structurée, plus pratique et plus directement liée aux besoins du marché. Il permet à l'étudiant de progresser selon une logique pédagogique claire : maîtriser les fondements, appliquer les concepts, développer des projets, valider les solutions et présenter les résultats.
         </p>
 
         <ul class="pillar-list">
-          <li><strong>Pédagogie de la Preuve Industrielle :</strong> 100% des TD/TP sont adossés à des projets réels tirés de mon portefeuille en production.</li>
-          <li><strong>L'Ingénieur Augmenté par l'IA :</strong> Maîtrise de Cursor et Copilot pour coder 5x plus vite, verrouillée par la <em>Live Code Defense</em>.</li>
-          <li><strong>Employabilité Immédiate :</strong> Sortie de cursus avec un compte GitHub certifié, des tests unitaires et 3 applications en ligne.</li>
+          <li><strong>Analyse du besoin :</strong> comprendre le contexte, identifier les objectifs et formaliser les exigences d'un projet.</li>
+          <li><strong>Approche progressive :</strong> passer des fondamentaux à la conception, puis au développement et à la mise en œuvre de solutions complètes.</li>
+          <li><strong>Valorisation des compétences :</strong> construire un portfolio, documenter les projets et développer une meilleure orientation professionnelle.</li>
         </ul>
       </div>
 
       <div class="page-footer">
-        <span>Page 1 / 5 &bull; Dossier Officiel de Candidature &bull; Cheickna Omar Diakité</span>
-        <span>Conforme Système LMD &bull; DGESRS Mali &bull; CAMES</span>
+        <span>Page 1 / 5 &bull; Dossier de candidature &bull; Cheickna Omar Diakité</span>
+        <span>Programme de spécialisation Full Stack</span>
       </div>
     </div>
 
-    <!-- ═══════════════════ PAGE 2 : TABLEAU CHOC & PROTOCOLES TERRAIN ═══════════════════ -->
+    <!-- ═══════════════════ PAGE 2 : APPROCHE PÉDAGOGIQUE ═══════════════════ -->
     <div class="page page-break">
       <div class="page-header">
         <div>
-          <div class="motto">Rupture Pédagogique &bull; Méthode Active</div>
-          <div class="header-name" style="font-size: 20px;">POURQUOI CETTE MÉTHODE PLACE VOS ÉTUDIANTS</div>
+          <div class="motto">Complémentarité &bull; Apprentissage progressif</div>
+          <div class="header-name" style="font-size: 20px;">UNE PÉDAGOGIE QUI RELIE SAVOIRS ET PRATIQUE</div>
         </div>
         <div class="header-meta">
           <strong>Ing. Cheickna Omar DIAKITÉ</strong> &bull; +223 91 69 05 92
         </div>
       </div>
 
-      <!-- TABLEAU CHOC COMPARATIF -->
+      <!-- Une approche complémentaire à la formation académique -->
       <table class="table-clash">
         <thead>
           <tr>
-            <th class="col-crit">Critères de Formation</th>
-            <th class="col-bad"><i class="fas fa-times-circle"></i> Enseignement Classique (Échec)</th>
-            <th class="col-good"><i class="fas fa-check-circle"></i> Méthode Ing. DIAKITÉ (Succès)</th>
+            <th class="col-crit">Étape</th>
+            <th class="col-bad">Acquis à mobiliser</th>
+            <th class="col-good">Mise en pratique proposée</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><strong>Pédagogie</strong></td>
-            <td class="td-bad">Théorie sur diapositives, code recopié sans comprendre.</td>
-            <td class="td-good">Missions réelles d'entreprises, 100% de code exécutable.</td>
+            <td><strong>Comprendre</strong></td>
+            <td class="td-bad">Notions de programmation et vocabulaire technique.</td>
+            <td class="td-good">Expliquer les concepts et analyser un besoin concret.</td>
           </tr>
           <tr>
-            <td><strong>Rapport à l'IA</strong></td>
-            <td class="td-bad">Interdite (aveuglement) ou subie (plagiat par ChatGPT).</td>
-            <td class="td-good">Ingénieur Pilote : Cursor/Copilot + audit critique du code.</td>
+            <td><strong>Pratiquer</strong></td>
+            <td class="td-bad">Exercices, méthodes et outils étudiés en cours.</td>
+            <td class="td-good">Ateliers guidés, essais, retours et corrections.</td>
           </tr>
           <tr>
-            <td><strong>Anti-Fraude</strong></td>
-            <td class="td-bad">Notes attribuées sur des devoirs maison faits par l'IA.</td>
-            <td class="td-good">Live Code Defense : 3 min d'audit oral par étudiant sur machine.</td>
+            <td><strong>Construire</strong></td>
+            <td class="td-bad">Compétences techniques acquises progressivement.</td>
+            <td class="td-good">Projet individuel ou collectif, réalisé par étapes.</td>
           </tr>
           <tr>
-            <td><strong>Contraintes PC</strong></td>
-            <td class="td-bad">Émulateurs lourds qui font planter les PC modestes à Bamako.</td>
-            <td class="td-good">Ingénierie Frugale : Débogage direct sur smartphone via USB.</td>
+            <td><strong>Intégrer</strong></td>
+            <td class="td-bad">Frontend, backend, API et données.</td>
+            <td class="td-good">Relier les composants d'une application Full Stack.</td>
           </tr>
           <tr>
-            <td><strong>Livrable Sortie</strong></td>
-            <td class="td-bad">Mémoire PDF théorique qui prend la poussière.</td>
-            <td class="td-good">Portfolio GitHub professionnel avec 3 applications en ligne.</td>
-          </tr>
-          <tr>
-            <td><strong>Résultat Emploi</strong></td>
-            <td class="td-bad">Rejet violent au premier test technique d'embauche.</td>
-            <td class="td-good">Opérationnel dès le jour 1 en banque, télécom ou startup.</td>
+            <td><strong>Présenter</strong></td>
+            <td class="td-bad">Démarche, documentation et gestion de versions.</td>
+            <td class="td-good">Expliquer ses choix et valoriser ses réalisations.</td>
           </tr>
         </tbody>
       </table>
 
-      <!-- MANIFESTE EN 3 AXIOMES -->
+      <!-- Principes pédagogiques -->
       <div class="grid-2">
         <div class="card gold-top">
-          <h4><i class="fas fa-brain"></i> Axiome 1 : Rigueur des Fondations</h4>
-          <p>On ne pilote pas une IA sans comprendre la mémoire, les types et la complexité O(n). L'étudiant apprend d'abord à raisonner en ingénieur système.</p>
+          <h4><i class="fas fa-brain"></i> Consolider les fondamentaux</h4>
+          <p>Algorithmique, programmation, analyse et modélisation constituent les bases nécessaires avant d'aborder des outils plus avancés.</p>
         </div>
         <div class="card blue-top">
-          <h4><i class="fas fa-code-branch"></i> Axiome 2 : Culture du Livrable</h4>
-          <p>Un code non versionné sur Git n'existe pas. Dès la première année, les étudiants adoptent les standards mondiaux : branches, PR et Clean Architecture.</p>
+          <h4><i class="fas fa-code-branch"></i> Apprendre par la réalisation</h4>
+          <p>Les projets permettent de mobiliser les acquis, de documenter le travail et de développer l'autonomie ainsi que la collaboration.</p>
         </div>
       </div>
 
-      <!-- DEUX PROTOCOLES TERRAIN (CORRECTION DES ANGLES MORTS) -->
-      <h2 class="section-title"><i class="fas fa-microchip"></i> Réponses Concrètes aux Défis Techniques Locaux</h2>
+      <h2 class="section-title"><i class="fas fa-route"></i> Une progression en plusieurs étapes</h2>
       <div class="grid-2">
         <div class="card emerald-top">
-          <h4><i class="fas fa-shield-virus"></i> Protocole Anti-Fraude IA : Live Code Defense</h4>
-          <p>
-            Tout devoir donne lieu à un audit individuel de 3 min sur machine. L'enseignant fait modifier une fonction en direct devant lui. Un code généré par IA sans maîtrise orale vaut <strong>0/20</strong>.
-          </p>
+          <h4><i class="fas fa-diagram-project"></i> De l'analyse au développement</h4>
+          <p>Définir le besoin, modéliser la solution, concevoir les données, développer les composants et les faire communiquer.</p>
         </div>
         <div class="card blue-top">
-          <h4><i class="fas fa-plug-circle-bolt"></i> Pédagogie Frugale &amp; Offline-First</h4>
-          <p>
-            Zéro blocage par émulateurs lourds : compilation mobile directe sur smartphones Android via câble USB (ADB). Dépendances Maven/npm locales préchargées pour travailler sans coupures internet.
-          </p>
+          <h4><i class="fas fa-clipboard-check"></i> Des acquis à valoriser</h4>
+          <p>Tester, versionner, documenter et présenter les projets afin de constituer progressivement des réalisations démontrables.</p>
         </div>
       </div>
 
       <div class="page-footer">
-        <span>Page 2 / 5 &bull; Dossier Officiel de Candidature &bull; Cheickna Omar Diakité</span>
-        <span>Conforme Système LMD &bull; DGESRS Mali &bull; CAMES</span>
+        <span>Page 2 / 5 &bull; Dossier de candidature &bull; Cheickna Omar Diakité</span>
+        <span>Programme de spécialisation Full Stack</span>
       </div>
     </div>
 
-    <!-- ═══════════════════ PAGE 3 : 5 MISSIONS RÉELLES & 38 REPOS ═══════════════════ -->
+    <!-- ═══════════════════ PAGE 3 : PROJETS PÉDAGOGIQUES ═══════════════════ -->
     <div class="page page-break">
       <div class="page-header">
         <div>
-          <div class="motto">Immersion Industrielle &bull; Projets en Production</div>
-          <div class="header-name" style="font-size: 20px;">LES 5 GRANDES MISSIONS ÉTUDIANTES</div>
+          <div class="motto">Apprentissage par projet &bull; Cas d'application</div>
+          <div class="header-name" style="font-size: 20px;">DES PROJETS POUR RELIER LES COMPÉTENCES</div>
         </div>
         <div class="header-meta">
-          <strong>38 Repositories Déployés</strong> chez THL Technologies
+          <strong>Progression adaptée</strong><br>au niveau des étudiants
         </div>
       </div>
 
-      <!-- LES 5 MISSIONS ÉTUDIANTES -->
-      <div class="mission-card">
-        <div class="mission-title">
-          <span><i class="fas fa-shield-halved"></i> 1. Core Banking &amp; Sécurité Financière</span>
-          <span class="mission-badge">Spring Boot &bull; Flutter &bull; PostgreSQL &bull; JWT/RSA</span>
+      <!-- PREUVES CONCRÈTES : DE MON PORTFOLIO AUX TRAVAUX PRATIQUES -->
+      <div style="background:var(--bg-alt); border:1px solid var(--border); border-left:4px solid var(--gold); border-radius:8px; padding:12px 14px; margin-bottom:12px;">
+        <div style="font-size:11.5px; font-weight:800; color:var(--primary); text-transform:uppercase; letter-spacing:0.8px; margin-bottom:6px;">
+          <i class="fas fa-clipboard-check"></i> Preuves concrètes : de mon portfolio aux travaux pratiques
         </div>
-        <div class="mission-desc">Projet fil rouge : Concevoir un système bancaire complet avec module d'encaissement terrain et session chiffrée. Rigueur des transactions financières ACID.</div>
-      </div>
-
-      <div class="mission-card">
-        <div class="mission-title">
-          <span><i class="fas fa-cart-shopping"></i> 2. Marketplace &amp; Wallet Multi-Vendeurs</span>
-          <span class="mission-badge">Angular 17 &bull; Spring Boot Microservices &bull; Firebase</span>
+        <div style="font-size:11.5px; color:var(--text-muted); line-height:1.5;">
+          Les projets ci-dessous s'inspirent de missions réelles, de systèmes et de plateformes déjà développés ou exploités en environnement professionnel. Ils servent de base à des ateliers pédagogiques où l'étudiant apprend à transformer un besoin en solution fonctionnelle, testable et documentée.
         </div>
-        <div class="mission-desc">Projet e-commerce : Plateforme marchande complète (Angular pour l'administration des ventes + Flutter pour les clients). Maîtrise de l'architecture Full-Stack.</div>
       </div>
 
       <div class="mission-card">
         <div class="mission-title">
-          <span><i class="fas fa-car-side"></i> 3. Mobilité VTC &amp; Géolocalisation Live</span>
-          <span class="mission-badge">Flutter (16 écrans) &bull; GPS Live &bull; WebSockets</span>
+          <span><i class="fas fa-shield-halved"></i> CID Core Banking</span>
+          <span class="mission-badge">JWT/RSA &bull; PostgreSQL &bull; Transactions sécurisées</span>
         </div>
-        <div class="mission-desc">Atelier mobile : Application de transport urbain avec suivi des chauffeurs en direct sur carte interactive. Gestion des flux asynchrones et des calculs de distance.</div>
+        <div class="mission-desc"><strong>Projet de référence :</strong> Modules de collecte et client mobile avec sessions chiffrées, transactions financières sécurisées et intégrité des données.<br>
+        <strong>Projet assigné aux étudiants :</strong> Conception d'une mini-banque ou application de microfinance/tontine avec gestion sécurisée des comptes.</div>
       </div>
 
       <div class="mission-card">
         <div class="mission-title">
-          <span><i class="fas fa-hotel"></i> 4. ERP Hôtelier de Luxe &amp; Stocks Industriels</span>
-          <span class="mission-badge">Grand Hôtel Maeva Palace &bull; QuantiX Stock &bull; Angular</span>
+          <span><i class="fas fa-cart-shopping"></i> Mywa Marketplace</span>
+          <span class="mission-badge">Flutter &bull; Angular &bull; Spring Boot</span>
         </div>
-        <div class="mission-desc">Projet d'entreprise : Digitaliser les réservations de suites et les inventaires usine avec alertes prédictives de rupture et dashboards analytiques.</div>
+        <div class="mission-desc"><strong>Projet de référence :</strong> Marketplace multiboutiques avec gestion des commandes, tableau de bord d'administration et services REST microservices.<br>
+        <strong>Projet assigné aux étudiants :</strong> Développement d'une marketplace locale pour artisans maliens, avec Angular pour les vendeurs et Flutter pour les acheteurs.</div>
       </div>
 
       <div class="mission-card">
         <div class="mission-title">
-          <span><i class="fas fa-scale-balanced"></i> 5. LegalTech &amp; Procédures de Cabinets d'Avocats</span>
-          <span class="mission-badge">Cabinet CHT &bull; Baara Challenge &bull; REST API</span>
+          <span><i class="fas fa-car-side"></i> Hewo VTC</span>
+          <span class="mission-badge">GPS Live &bull; WebSockets &bull; Mobile</span>
         </div>
-        <div class="mission-desc">Projet de gestion : Plateforme de suivi des contentieux judiciaires, audiences et facturation. Initiation aux logiciels métiers hautement réglementés.</div>
+        <div class="mission-desc"><strong>Projet de référence :</strong> 16 écrans mobiles documentés, géolocalisation en temps réel, calcul d'itinéraires et communication bidirectionnelle.<br>
+        <strong>Projet assigné aux étudiants :</strong> Atelier mobile de suivi de livraison ou de taxis avec carte dynamique et calcul de trajet en direct.</div>
       </div>
 
-      <!-- INDEX EXHAUSTIF DES 38 REPOSITORIES -->
-      <h2 class="section-title"><i class="fab fa-github"></i> Index Certifié des 38 Repositories Industriels</h2>
+      <div class="mission-card">
+        <div class="mission-title">
+          <span><i class="fas fa-chart-line"></i> Quantix Stock &amp; Paie</span>
+          <span class="mission-badge">Dashboards &bull; RH &bull; Gestion des stocks</span>
+        </div>
+        <div class="mission-desc"><strong>Projet de référence :</strong> Organigramme dynamique d'entreprise, calcul des fiches de paie journalières et alertes de rupture de stock.<br>
+        <strong>Projet assigné aux étudiants :</strong> Système de gestion scolaire ou ERP de gestion avec exports PDF, tableaux de bord et indicateurs analytiques.</div>
+      </div>
 
-      <div style="background:var(--bg-alt); border:1px solid var(--border); border-radius:8px; padding:10px;">
-        <div class="repo-group-title"><i class="fas fa-building-columns"></i> Core Banking &amp; Fintech (10) :</div>
-        <span class="repo-pill">Core-Banking</span>
-        <span class="repo-pill">Core-Banking-Backend</span>
-        <span class="repo-pill">Core-Banking-Dashboard-Angular</span>
-        <span class="repo-pill">core-Banking-Clients</span>
-        <span class="repo-pill">Core-Banking-Collect</span>
-        <span class="repo-pill">cid_collect_backend</span>
-        <span class="repo-pill">collect-pro-backend</span>
-        <span class="repo-pill">collect-pro-dashboard</span>
-        <span class="repo-pill">collect-pro-mobile</span>
-        <span class="repo-pill">thl-kaliss</span>
+      <div class="mission-card">
+        <div class="mission-title">
+          <span><i class="fas fa-palette"></i> Zabban Holding</span>
+          <span class="mission-badge">UI/UX &bull; Design &bull; Figma</span>
+        </div>
+        <div class="mission-desc"><strong>Projet de référence :</strong> Catalogue luxe, kakémonos, identité visuelle et signalétique de salon.<br>
+        <strong>Projet assigné aux étudiants :</strong> Atelier UI/UX &amp; print : création d'une identité de marque complète et prototype Figma d'une startup africaine.</div>
+      </div>
 
-        <div class="repo-group-title"><i class="fas fa-cart-shopping"></i> E-Commerce, VTC &amp; Logistique (11) :</div>
-        <span class="repo-pill">Mywa-backend</span>
-        <span class="repo-pill">Mywa-dashboard</span>
-        <span class="repo-pill">Mywa-mobile</span>
-        <span class="repo-pill">Malishi-backend</span>
-        <span class="repo-pill">Malishi-Dashboard</span>
-        <span class="repo-pill">Malishi-mobile-app</span>
-        <span class="repo-pill">hewoo_backend</span>
-        <span class="repo-pill">hewoo_dashboard</span>
-        <span class="repo-pill">hewoo_mobile</span>
-        <span class="repo-pill">Fat-Dist-Backend</span>
-        <span class="repo-pill">Fat_Dist_Mobile_App</span>
+      <div style="background:var(--bg-alt); border:1px solid var(--border); border-radius:8px; padding:10px 12px; margin-top:12px;">
+        <div class="repo-group-title" style="margin-top:0;"><i class="fab fa-github"></i> Index certifié des 38 repositories industriels</div>
+        <div style="font-size:11px; color:var(--text-muted); line-height:1.7;">
+          <strong>Core Banking &amp; Fintech (10) :</strong> Core-Banking, Core-Banking-Backend, Core-Banking-Dashboard-Angular, core-Banking-Clients, Core-Banking-Collect, cid_collect_backend, collect-pro-backend, collect-pro-dashboard, collect-pro-mobile, thl-kaliss<br>
+          <strong>E-Commerce &amp; VTC (11) :</strong> Mywa-backend, Mywa-dashboard, Mywa-mobile, Malishi-backend, Malishi-Dashboard, Malishi-mobile-app, hewoo_backend, hewoo_dashboard, hewoo_mobile, Fat-Dist-Backend, Fat_Dist_Mobile_App<br>
+          <strong>Hôtellerie, ERP &amp; métiers (17) :</strong> MAEVA-PALACE-Dashboard, Maeva-palace-backend, QuantiX-Dashboard, Quantix-backend, Gestion-paie-frontend, Gestion-paie-backend, cabinetCHT-backend, cabinet-avocat, zabbaan-backend, zabbaan-institut-frontend, barra-challenge-backend, barra-challenge-frontend, Min-digital-sport-backend, Min-digital-sport-dashboard, Solar-Pro
+        </div>
+      </div>
 
-        <div class="repo-group-title"><i class="fas fa-hotel"></i> Hôtellerie Maeva, Justice, ERP &amp; Sport (17) :</div>
-        <span class="repo-pill">MAEVA-PALACE-Dashboard</span>
-        <span class="repo-pill">Maeva-palace-backend</span>
-        <span class="repo-pill">QuantiX-Dashboard</span>
-        <span class="repo-pill">Quantix-backend</span>
-        <span class="repo-pill">Gestion-paie-frontend</span>
-        <span class="repo-pill">Gestion-paie-backend</span>
-        <span class="repo-pill">cabinetCHT-backend</span>
-        <span class="repo-pill">cabinet-avocat</span>
-        <span class="repo-pill">zabbaan-backend</span>
-        <span class="repo-pill">zabbaan-institut-frontend</span>
-        <span class="repo-pill">barra-challenge-backend</span>
-        <span class="repo-pill">barra-challenge-frontend</span>
-        <span class="repo-pill">Min-digital-sport-backend</span>
-        <span class="repo-pill">Min-digital-sport-dashboard</span>
-        <span class="repo-pill">Solar-Pro</span>
+      <div class="banner-demo">
+        <h4><i class="fas fa-lightbulb"></i> Une démarche de pédagogie par projet</h4>
+        <p>Ces exemples illustrent des situations réelles de conception, de développement, d'intégration, de tests et de documentation. Ils permettent à l'étudiant d'acquérir des compétences applicatives tout en développant sa capacité à expliquer, justifier et présenter ses solutions.</p>
       </div>
 
       <div class="page-footer">
-        <span>Page 3 / 5 &bull; Dossier Officiel de Candidature &bull; Cheickna Omar Diakité</span>
-        <span>Conforme Système LMD &bull; DGESRS Mali &bull; CAMES</span>
+        <span>Page 3 / 5 &bull; Dossier de candidature &bull; Cheickna Omar Diakité</span>
+        <span>Programme de spécialisation Full Stack</span>
       </div>
     </div>
 
@@ -819,130 +727,78 @@
     <div class="page page-break">
       <div class="page-header">
         <div>
-          <div class="motto">Conformité LMD &bull; Programmes Professionnalisants</div>
-          <div class="header-name" style="font-size: 20px;">CATALOGUE DES MODULES PROPOSÉS (MATRICE DES UE)</div>
-          <div class="header-sub" style="font-size:11px; margin-top:3px;">Cible : Génie Logiciel &bull; Réseaux &bull; Info de Gestion &bull; Méthode : Projets Industriels</div>
+          <div class="motto">Parcours progressif &bull; Spécialisation Full Stack</div>
+          <div class="header-name" style="font-size: 20px;">CONTENUS DU PROGRAMME PROPOSÉ</div>
+          <div class="header-sub" style="font-size:11px; margin-top:3px;">Une proposition à adapter aux prérequis et à la maquette de l'établissement</div>
         </div>
         <div class="header-meta">
-          <strong>Volumes Horaires Réglables</strong><br>30h à 50h selon maquette
+          <strong>Progression adaptable</strong><br>selon le niveau des étudiants
         </div>
       </div>
 
-      <!-- TABLEAU OFFICIEL DES 12 UE LMD -->
+      <!-- Blocs pédagogiques issus du programme de spécialisation -->
       <table class="table-clean">
         <thead>
           <tr>
-            <th style="width: 10%;">Code</th>
-            <th style="width: 32%;">Intitulé de l'Unité d'Enseignement</th>
-            <th style="width: 12%;">Niveau</th>
-            <th style="width: 38%;">Technologies &amp; Outils Enseignés</th>
-            <th style="width: 8%; text-align:center;">Vol.</th>
+            <th style="width: 27%;">Bloc</th>
+            <th style="width: 73%;">Contenus et compétences visées</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><span class="code-pill">BUR101</span></td>
-            <td><strong>Bureautique Pro &amp; Outils de Gestion</strong></td>
-            <td>L1 – L2</td>
-            <td>Word (normes mémoires), Excel Avancé (TCD, formules), PowerPoint</td>
-            <td style="text-align:center;"><span class="vol-badge">30h</span></td>
+            <td><strong>01. Algorithmique et programmation</strong></td>
+            <td>Logique, variables, types, conditions, boucles, fonctions, structures de données et résolution de problèmes.</td>
           </tr>
           <tr>
-            <td><span class="code-pill">ALGO102</span></td>
-            <td><strong>Algorithmique &amp; Programmation</strong></td>
-            <td>L1</td>
-            <td>Logique algorithmique, C, Python, Structures de données de base</td>
-            <td style="text-align:center;"><span class="vol-badge">45h</span></td>
+            <td><strong>02. Analyse et modélisation</strong></td>
+            <td>Analyse fonctionnelle, cahier des charges, MERISE, UML, modélisation des données et architecture fonctionnelle.</td>
           </tr>
           <tr>
-            <td><span class="code-pill">WEB103</span></td>
-            <td><strong>Développement Web &amp; Responsive</strong></td>
-            <td>L1 – L2</td>
-            <td>HTML5 sémantique, CSS3, Flexbox/Grid, JavaScript ES6 DOM</td>
-            <td style="text-align:center;"><span class="vol-badge">40h</span></td>
+            <td><strong>03. Bases de données</strong></td>
+            <td>Modélisation relationnelle, SQL, PostgreSQL, relations, requêtes, jointures, contraintes et transactions.</td>
           </tr>
           <tr>
-            <td><span class="code-pill">POO201</span></td>
-            <td><strong>Programmation Orientée Objet Java</strong></td>
-            <td>L2</td>
-            <td>Encapsulation, Héritage, Polymorphisme, Collections, Exceptions</td>
-            <td style="text-align:center;"><span class="vol-badge">45h</span></td>
+            <td><strong>04. Développement backend</strong></td>
+            <td>Java, programmation orientée objet, Spring Boot, API REST, validation, gestion des erreurs et connexion à PostgreSQL.</td>
           </tr>
           <tr>
-            <td><span class="code-pill">BDD202</span></td>
-            <td><strong>Bases de Données &amp; SQL Avancé</strong></td>
-            <td>L1 – L2</td>
-            <td>Modélisation Merise/UML, PostgreSQL, MySQL, Jointures, Indexation</td>
-            <td style="text-align:center;"><span class="vol-badge">45h</span></td>
+            <td><strong>05. Développement web</strong></td>
+            <td>HTML, CSS, responsive design, JavaScript / TypeScript, formulaires, validation et communication avec des API.</td>
           </tr>
           <tr>
-            <td><span class="code-pill">FRONT203</span></td>
-            <td><strong>Frontend d'Entreprise avec Angular</strong></td>
-            <td>L2 – L3</td>
-            <td>Angular 17+, TypeScript, RxJS, Services, Composants, Consommation API</td>
-            <td style="text-align:center;"><span class="vol-badge">45h</span></td>
+            <td><strong>06. Frontend avec Angular</strong></td>
+            <td>Composants, services, navigation, formulaires, modèles TypeScript et intégration avec une API REST.</td>
           </tr>
           <tr>
-            <td><span class="code-pill">BACK301</span></td>
-            <td><strong>Backend d'Entreprise avec Spring Boot</strong></td>
-            <td>L2 – L3</td>
-            <td>Architecture en couches, Spring Data JPA, Hibernate, API RESTful</td>
-            <td style="text-align:center;"><span class="vol-badge">50h</span></td>
+            <td><strong>07. Développement mobile</strong></td>
+            <td>Dart et Flutter, widgets, navigation, formulaires, accès aux API et connexion au backend.</td>
           </tr>
           <tr>
-            <td><span class="code-pill">MOB302</span></td>
-            <td><strong>Développement Mobile avec Flutter</strong></td>
-            <td>L2 – L3</td>
-            <td>Dart, Widgets, BLoC / Provider, Consommation REST, GPS, Firebase</td>
-            <td style="text-align:center;"><span class="vol-badge">50h</span></td>
+            <td><strong>08. Outils et collaboration</strong></td>
+            <td>Git et GitHub, dépôts, branches, commits, résolution de conflits et documentation des projets.</td>
           </tr>
           <tr>
-            <td><span class="code-pill">SEC303</span></td>
-            <td><strong>Sécurité des API &amp; Sessions Chiffrées</strong></td>
-            <td>L3 – M1</td>
-            <td>Tokens JWT, Chiffrement RSA, Spring Security, Validation des entrées</td>
-            <td style="text-align:center;"><span class="vol-badge">30h</span></td>
-          </tr>
-          <tr>
-            <td><span class="code-pill">RES204</span></td>
-            <td><strong>Architecture Réseaux &amp; Maintenance PC</strong></td>
-            <td>L1 – L2</td>
-            <td>Adressage IPv4/IPv6, Commutateurs Cisco, Diagnostic hardware</td>
-            <td style="text-align:center;"><span class="vol-badge">35h</span></td>
-          </tr>
-          <tr>
-            <td><span class="code-pill">DES104</span></td>
-            <td><strong>Design Graphique, UI/UX &amp; Direction Art.</strong></td>
-            <td>L1 – L3</td>
-            <td>Photoshop, Illustrator, InDesign, Figma, Ergonomie d'interfaces</td>
-            <td style="text-align:center;"><span class="vol-badge">35h</span></td>
-          </tr>
-          <tr>
-            <td><span class="code-pill">AI-305</span></td>
-            <td><strong>L'Ingénieur Logiciel Augmenté par l'IA</strong></td>
-            <td>L3 – Master</td>
-            <td>Cursor, Windsurf, Copilot, Prompt Engineering, Intégration d'API LLM</td>
-            <td style="text-align:center;"><span class="vol-badge">30h</span></td>
+            <td><strong>09. Projet Full Stack et professionnalisation</strong></td>
+            <td>Réalisation intégrée, tests, déploiement, documentation, présentation, portfolio et réflexion sur l'orientation professionnelle.</td>
           </tr>
         </tbody>
       </table>
 
-      <!-- LES PACKS D'INTERVENTION INSTITUTIONNELS -->
-      <h2 class="section-title" style="margin-top:14px;"><i class="fas fa-boxes-packing"></i> Formules d'Intervention à la Carte</h2>
+      <h2 class="section-title" style="margin-top:14px;"><i class="fas fa-bullseye"></i> Finalité du parcours</h2>
       <div class="grid-2">
         <div class="card blue-top">
-          <h4><i class="fas fa-layer-group"></i> Pack A : Full-Stack Web &amp; Mobile (L2/L3)</h4>
-          <p>Combinaison Angular 17, Spring Boot et Flutter. Profils immédiatement opérationnels sur le marché de l'emploi.</p>
+          <h4><i class="fas fa-laptop-code"></i> Construire une solution</h4>
+          <p>Accompagner l'étudiant de l'analyse d'un besoin à la réalisation et à la présentation d'une application fonctionnelle.</p>
         </div>
         <div class="card emerald-top">
-          <h4><i class="fas fa-robot"></i> Pack B : Ingénieur IA Augmenté (L3/Master)</h4>
-          <p>Cursor, Windsurf, API OpenAI/Claude. Multiplie par 5 la vitesse d'exécution avec soutenance orale sans faille.</p>
+          <h4><i class="fas fa-compass"></i> Préparer la suite</h4>
+          <p>Développer l'autonomie et aider l'étudiant à mieux identifier les compétences et les domaines professionnels qu'il souhaite approfondir.</p>
         </div>
       </div>
 
       <div class="page-footer">
-        <span>Page 4 / 5 &bull; Dossier Officiel de Candidature &bull; Cheickna Omar Diakité</span>
-        <span>Conforme Système LMD &bull; DGESRS Mali &bull; CAMES</span>
+        <span>Page 4 / 5 &bull; Dossier de candidature &bull; Cheickna Omar Diakité</span>
+        <span>Programme de spécialisation Full Stack</span>
       </div>
     </div>
 
@@ -952,7 +808,7 @@
         <div>
           <div class="motto">Curriculum Vitae Académique &bull; Enseignement Supérieur</div>
           <div class="header-name" style="font-size: 20px;">CHEICKNA OMAR DIAKITÉ</div>
-          <div class="header-sub">Ingénieur Réseau &amp; Télécoms &bull; Développeur Full-Stack &bull; Formateur IT</div>
+          <div class="header-sub">Réseaux &amp; Télécommunications &bull; Développeur Full Stack &bull; Formateur IT</div>
         </div>
         <div class="header-meta">
           <strong>+223 91 69 05 92</strong> &bull; Cheickodi5@gmail.com<br>
@@ -964,37 +820,36 @@
       <div style="display:grid; grid-template-columns: 1fr 1fr; gap:14px; font-size:11.5px; line-height:1.5;">
         <div>
           <div style="font-weight:800; text-transform:uppercase; color:var(--primary); border-bottom:2px solid var(--gold); padding-bottom:3px; margin-bottom:8px;">
-            <i class="fas fa-graduation-cap"></i> Diplômes Académiques &amp; Titres
+            <i class="fas fa-graduation-cap"></i> Formation et diplômes
           </div>
           <p><strong>Licence Réseaux Informatiques &amp; Télécoms</strong><br>
           Cycle universitaire complet : routage, commutation Cisco, protocoles, architectures réseaux et sécurité système.</p>
           
-          <p style="margin-top:6px;"><strong>Projet de Fin d'Études / Mémoire d'Ingénierie (Mention TB)</strong><br>
+          <p style="margin-top:6px;"><strong>Projet de fin d'études</strong><br>
           Spécialisation : Programmation, génie logiciel, architecture et déploiement d'applications logicielles d'entreprise.</p>
           
           <p style="margin-top:6px;"><strong>Certificat Maintenance &amp; Réparation PC</strong><br>
           Diagnostic approfondi des pannes matérielles/logicielles, architecture cartes mères, dépannage desktops et laptops.</p>
           
-          <p style="margin-top:6px;"><strong>Baccalauréat Malien &amp; Titres Fondamentaux</strong><br>
-          DEF, Baccalauréat, Permis de conduire B. Formation continue intensive autodidacte en développement moderne.</p>
+          <p style="margin-top:6px;"><strong>Autres titres</strong><br>
+          Diplôme d'études fondamentales (DEF), baccalauréat et permis de conduire B.</p>
 
           <div style="font-weight:800; text-transform:uppercase; color:var(--primary); border-bottom:2px solid var(--gold); padding-bottom:3px; margin:10px 0 8px 0;">
-            <i class="fas fa-file-contract"></i> Engagements Contractuels Vacataire
+            <i class="fas fa-chalkboard-teacher"></i> Contributions pédagogiques proposées
           </div>
           <ul style="margin-left:14px;">
-            <li><strong>Ponctualité Stricte :</strong> En salle 15 min avant le cours.</li>
-            <li><strong>Notes sous 72h Garanti :</strong> PV remis sous 72h ouvrées.</li>
-            <li><strong>Jurys de Soutenance :</strong> Présidence &amp; évaluation PFE.</li>
-            <li><strong>Hackathon Annuel Offert :</strong> Compétition de code 48h.</li>
+            <li>Préparer des cours et activités adaptés aux objectifs pédagogiques convenus.</li>
+            <li>Accompagner les étudiants dans la réalisation et la présentation de leurs projets.</li>
+            <li>Participer aux évaluations et aux jurys selon les besoins de l'établissement.</li>
           </ul>
         </div>
 
         <div>
           <div style="font-weight:800; text-transform:uppercase; color:var(--primary); border-bottom:2px solid var(--accent); padding-bottom:3px; margin-bottom:8px;">
-            <i class="fas fa-briefcase"></i> Expérience Professionnelle &amp; Réalisations
+            <i class="fas fa-briefcase"></i> Expériences professionnelles et projets
           </div>
           
-          <p><strong>Développeur Full-Stack &amp; Architecte Applicatif</strong><br>
+          <p><strong>Développeur Full Stack</strong><br>
           <span style="color:var(--gold-dark); font-weight:700;">THL Technologies &bull; Bamako (2024 – Présent, 2 ans+)</span><br>
           &bull; <em>CID Core Banking :</em> Modules Collect &amp; Client Mobile sous sessions chiffrées JWT/RSA et base PostgreSQL.<br>
           &bull; <em>Mywa Marketplace &amp; Wallet :</em> Microservices Spring Boot, app Flutter et dashboard administrateur Angular 17.<br>
@@ -1004,7 +859,7 @@
 
           <p style="margin-top:6px;"><strong>Fondateur &amp; Formateur aux Métiers Numériques</strong><br>
           <span style="color:var(--gold-dark); font-weight:700;">Horizon X &bull; Bamako (2025 – Présent)</span><br>
-          Animations de formations intensives pratiques en programmation web, mobile et bureautique. Coaching pour entretiens techniques.</p>
+          Formations pratiques en programmation web, mobile et outils bureautiques, ainsi qu'un accompagnement à la préparation d'entretiens techniques.</p>
 
           <p style="margin-top:6px;"><strong>Directeur Artistique &amp; Designer Graphique</strong><br>
           <span style="color:var(--gold-dark); font-weight:700;">Kaizen Studios &bull; Bamako (2020 – Présent)</span><br>
@@ -1018,9 +873,9 @@
 
       <!-- BANNIÈRE COURS DE DÉMONSTRATION GRATUIT 45 MIN -->
       <div class="banner-demo" style="margin-top:14px;">
-        <h4><i class="fas fa-chalkboard-user"></i> OFFRE FORMELLE : COURS MAGISTRAL DE DÉMONSTRATION GRATUIT (45 MIN)</h4>
+        <h4><i class="fas fa-chalkboard-user"></i> PROPOSITION DE SÉANCE DE DÉMONSTRATION (45 MIN)</h4>
         <p>
-          Afin de permettre à votre Direction Générale et à vos directeurs de filières de juger sur pièces de mon autorité technique, de ma dynamique didactique et de mon impact auprès des apprenants, <strong>je propose d'animer gracieusement un cours magistral ou un atelier pratique de 45 minutes</strong> devant votre commission académique ou une classe témoin, sur le thème de votre choix.
+          Afin de vous permettre d'apprécier ma démarche pédagogique, <strong>je propose d'animer un cours de démonstration ou un atelier pratique de 45 minutes</strong> devant votre commission ou une classe témoin, sur un thème défini avec votre établissement.
         </p>
       </div>
 
@@ -1029,14 +884,11 @@
           <div style="font-weight: 800; color: var(--primary); font-size: 13px;">Ing. Cheickna Omar DIAKITÉ</div>
           <div style="font-size: 11px; color: var(--text-muted);">Candidat aux fonctions d'Enseignement Supérieur (Licence &amp; Master) &bull; Bamako, Mali</div>
         </div>
-        <button class="btn-action" onclick="window.print()">
-          <i class="fas fa-print"></i> Imprimer le Dossier Complet (5 Pages)
-        </button>
       </div>
 
       <div class="page-footer">
-        <span>Page 5 / 5 &bull; Dossier Officiel de Candidature &bull; Cheickna Omar Diakité &bull; Bamako, Mali</span>
-        <span>Conforme Système LMD &bull; DGESRS Mali &bull; CAMES</span>
+        <span>Page 5 / 5 &bull; Dossier de candidature &bull; Cheickna Omar Diakité &bull; Bamako, 7 octobre 2026</span>
+        <span>Programme de spécialisation Full Stack</span>
       </div>
     </div>
 
